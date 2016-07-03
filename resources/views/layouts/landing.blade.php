@@ -56,9 +56,9 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#home" class="smoothScroll">{{ trans('adminlte_lang::message.home') }}</a></li>
-                <li><a href="#desc" class="smoothScroll">Interior</a></li>
-                <li><a href="#showcase" class="smoothScroll">Jewels</a></li>
-                <li><a href="#contact" class="smoothScroll">Fashion</a></li>
+                <li><a href="#interior" class="smoothScroll">Interior</a></li>
+                <li><a href="#jewels" class="smoothScroll">Jewels</a></li>
+                <li><a href="#fashion" class="smoothScroll">Fashion</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 @if (Auth::guest())
@@ -103,7 +103,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 </div><!--/ #headerwrap -->
 
 
-<section id="desc" name="desc"></section>
+<section id="interior" name="interior"></section>
 <!-- INTRO WRAP -->
 <div id="intro">
     <div class="container">
@@ -133,7 +133,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 </div><!--/ #introwrap -->
 
 <!-- FEATURES WRAP -->
-<div id="features">
+<div id="jewels">
     <div class="container">
         <div class="row">
             <h1 class="centered">{{ trans('adminlte_lang::message.whatnew') }}</h1>
@@ -210,7 +210,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 </div><!--/ #features -->
 
 
-<section id="showcase" name="showcase"></section>
+<section id="fashion" name="fashion"></section>
 <div id="showcase">
     <div class="container">
         <div class="row">
