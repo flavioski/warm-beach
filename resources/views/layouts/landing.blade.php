@@ -212,7 +212,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 
 
 <section id="fashion" name="fashion"></section>
-<div id="showcase">
+<div id="desc-fashion">
     <div class="container">
         <div class="row">
             <h1 class="centered">{{ trans('adminlte_lang::message.screenshots') }}</h1>
