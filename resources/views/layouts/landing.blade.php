@@ -59,6 +59,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                 <li><a href="#interior" class="smoothScroll">Interior</a></li>
                 <li><a href="#jewels" class="smoothScroll">Jewels</a></li>
                 <li><a href="#fashion" class="smoothScroll">Fashion</a></li>
+                <li><a href="#contact" class="smoothScroll">Contact</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 @if (Auth::guest())
