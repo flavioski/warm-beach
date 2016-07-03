@@ -6,24 +6,24 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Adminlte-laravel - {{ trans('adminlte_lang::message.landingdescription') }} ">
-    <meta name="author" content="Sergi Tur Badenas - acacha.org">
+    <meta name="description" content="Interno 12 - interior, jewels design & fashion">
+    <meta name="author" content="Chiara Dal Ben Designer">
 
-    <meta property="og:title" content="Adminlte-laravel" />
+    <meta property="og:title" content="Interno 12" />
     <meta property="og:type" content="website" />
-    <meta property="og:description" content="Adminlte-laravel - {{ trans('adminlte_lang::message.landingdescription') }}" />
-    <meta property="og:url" content="http://demo.adminlte.acacha.org/" />
-    <meta property="og:image" content="http://demo.adminlte.acacha.org/img/AcachaAdminLTE.png" />
-    <meta property="og:image" content="http://demo.adminlte.acacha.org/img/AcachaAdminLTE600x600.png" />
-    <meta property="og:image" content="http://demo.adminlte.acacha.org/img/AcachaAdminLTE600x314.png" />
-    <meta property="og:sitename" content="demo.adminlte.acacha.org" />
-    <meta property="og:url" content="http://demo.adminlte.acacha.org" />
+    <meta property="og:description" content="Interno 12 - interior, jewels design & fashion" />
+    <meta property="og:url" content="http://www.interno12.net/" />
+    <meta property="og:image" content="http://www.interno12.net/img/logo.png" />
+    <meta property="og:image" content="http://www.interno12.net/img/logo600x600.png" />
+    <meta property="og:image" content="http://www.interno12.net/img/logo600x314.png" />
+    <meta property="og:sitename" content="www.interno12.net" />
+    <meta property="og:url" content="http://www.interno12.net" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@acachawiki" />
     <meta name="twitter:creator" content="@acacha1" />
 
-    <title>{{ trans('adminlte_lang::message.landingdescriptionpratt') }}</title>
+    <title>Interno 12 - interior, jewels design & fashion</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{ asset('/css/bootstrap.css') }}" rel="stylesheet">
