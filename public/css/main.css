@@ -106,6 +106,14 @@ a:after {
     border-top: #bdc3c7 solid 5px;
 }
 
+/* Jewels Wrap */
+
+#desc-jewels {
+    padding-top: 50px;
+    border-top: #bdc3c7 solid 5px;
+    padding-bottom: 50px;
+}
+
 /* intro Wrap */
 
 #intro {

@@ -134,7 +134,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 </div><!--/ #introwrap -->
 
 <section id="jewels" name="jewels"></section>
-<div id="jewels">
+<div id="desc-jewels">
     <div class="container">
         <div class="row">
             <h1 class="centered">{{ trans('adminlte_lang::message.whatnew') }}</h1>
