@@ -99,6 +99,13 @@ a:after {
 	color: white
 }
 
+/* Interior Wrap */
+
+#desc-interior {
+    padding-top: 50px;
+    border-top: #bdc3c7 solid 5px;
+}
+
 /* intro Wrap */
 
 #intro {

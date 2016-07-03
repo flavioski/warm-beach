@@ -50,6 +50,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="#"><b>Interno 12</b></a>
         </div>
@@ -105,8 +106,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 
 
 <section id="interior" name="interior"></section>
-<!-- INTRO WRAP -->
-<div id="intro">
+<div id="desc-interior">
     <div class="container">
         <div class="row centered">
             <h1>{{ trans('adminlte_lang::message.designed') }}</h1>
@@ -133,7 +133,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
     </div> <!--/ .container -->
 </div><!--/ #introwrap -->
 
-<!-- FEATURES WRAP -->
+<section id="jewels" name="jewels"></section>
 <div id="jewels">
     <div class="container">
         <div class="row">
