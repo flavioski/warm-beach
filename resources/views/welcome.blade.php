@@ -28,7 +28,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                 <li><a href="#fashion" class="smoothScroll">Fashion</a></li>
                 <li><a href="#contact" class="smoothScroll">Contact</a></li>
             </ul>
-            @extends('layouts.partials.frontend.navbar-nav')
+            @extends('layouts.partials.frontend.navbar')
         </div><!--/.nav-collapse -->
         @endsection
     </div>
