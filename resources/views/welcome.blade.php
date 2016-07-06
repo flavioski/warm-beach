@@ -19,6 +19,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
             </button>
             <a class="navbar-brand" href="#"><b>interno 12</b></a>
         </div>
+        @section('navbar-collapse')
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#home" class="smoothScroll">{{ trans('adminlte_lang::message.home') }}</a></li>
@@ -27,15 +28,9 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                 <li><a href="#fashion" class="smoothScroll">Fashion</a></li>
                 <li><a href="#contact" class="smoothScroll">Contact</a></li>
             </ul>
-            <ul class="nav navbar-nav navbar-right">
-                @if (Auth::guest())
-                    <li><a href="{{ url('/login') }}">{{ trans('adminlte_lang::message.login') }}</a></li>
-                    <li><a href="{{ url('/register') }}">{{ trans('adminlte_lang::message.register') }}</a></li>
-                @else
-                    <li><a href="/home">{{ Auth::user()->name }}</a></li>
-                @endif
-            </ul>
+            @extends('layouts.partials.frontend.navbar-nav')
         </div><!--/.nav-collapse -->
+        @endsection
     </div>
 </div>
 
