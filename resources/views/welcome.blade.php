@@ -19,7 +19,6 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
             </button>
             <a class="navbar-brand" href="#"><b>interno 12</b></a>
         </div>
-        @section('navbar-collapse')
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#home" class="smoothScroll">{{ trans('adminlte_lang::message.home') }}</a></li>
@@ -30,7 +29,6 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
             </ul>
             @extends('layouts.partials.frontend.navbar')
         </div><!--/.nav-collapse -->
-        @endsection
     </div>
 </div>
 
