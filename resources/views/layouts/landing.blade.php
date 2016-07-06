@@ -4,6 +4,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 -->
 <html lang="en">
 @extends('layouts.frontend.head')
+@section('htmlheader_title') Home @endsection
 <body data-spy="scroll" data-offset="0" data-target="#navigation">
 
 <!-- Fixed navbar -->

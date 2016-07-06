@@ -18,7 +18,7 @@
     <meta name="twitter:site" content="@acachawiki" />
     <meta name="twitter:creator" content="@acacha1" />
 
-    <title>interno 12 - interior, jewels design & fashion</title>
+    <title>@yield('htmlheader_title', 'interno 12 - interior, jewels design & fashion')</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{ asset('/css/bootstrap.css') }}" rel="stylesheet">
