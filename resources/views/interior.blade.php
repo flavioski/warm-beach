@@ -22,8 +22,8 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
         @section('navbar-collapse')
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#home" class="smoothScroll">{{ trans('adminlte_lang::message.home') }}</a></li>
-                <li><a href="{{ url('/interior') }}" class="smoothScroll">Interior</a></li>
+                <li><a href="#home" class="smoothScroll">{{ trans('adminlte_lang::message.home') }}</a></li>
+                <li class="active"><a href="{{ url('/interior') }}" class="smoothScroll">Interior</a></li>
                 <li><a href="#jewels" class="smoothScroll">Jewels</a></li>
                 <li><a href="#fashion" class="smoothScroll">Fashion</a></li>
                 <li><a href="#contact" class="smoothScroll">Contact</a></li>
