@@ -15,6 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/interior', function () {
+Route::get('interior', function () {
     return view('interior');
 });
