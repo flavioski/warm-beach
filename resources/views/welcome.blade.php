@@ -27,7 +27,14 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                 <li><a href="#fashion" class="smoothScroll">Fashion</a></li>
                 <li><a href="#contact" class="smoothScroll">Contact</a></li>
             </ul>
-            @include('layouts.partials.frontend.navbar')
+            <ul class="nav navbar-nav navbar-right">
+                @if (Auth::guest())
+                    <li><a href="{{ url('/login') }}">{{ trans('adminlte_lang::message.login') }}</a></li>
+                    <li><a href="{{ url('/register') }}">{{ trans('adminlte_lang::message.register') }}</a></li>
+                @else
+                    <li><a href="/home">{{ Auth::user()->name }}</a></li>
+                @endif
+            </ul>
         </div><!--/.nav-collapse -->
     </div>
 </div>
