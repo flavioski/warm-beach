@@ -17,15 +17,15 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><b>interno 12</b></a>
+            <a class="navbar-brand" href="{{ url('/') }}" title="Home Page"><b>interno 12</b></a>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li><a href="#home" class="smoothScroll">{{ trans('adminlte_lang::message.home') }}</a></li>
-                <li class="active"><a href="#interior" class="smoothScroll">Interior</a></li>
-                <li><a href="{{ url('/jewels') }}" class="smoothScroll">Jewels</a></li>
-                <li><a href="{{ url('/fashion') }}" class="smoothScroll">Fashion</a></li>
-                <li><a href="#contact" class="smoothScroll">Contact</a></li>
+                <li><a href="{{ url ('/') }}" title="Home" class="smoothScroll">{{ trans('adminlte_lang::message.home') }}</a></li>
+                <li class="active"><a href="#interior" title="Interior" class="smoothScroll">Interior</a></li>
+                <li><a href="{{ url('/jewels') }}" title="Jewles" class="smoothScroll">Jewels</a></li>
+                <li><a href="{{ url('/fashion') }}" title="Fashion" class="smoothScroll">Fashion</a></li>
+                <li><a href="#contact" title="Contact" class="smoothScroll">Contact</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 @if (Auth::guest())
@@ -44,7 +44,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 <div id="desc-interior">
     <div class="container">
         <div class="row centered">
-            <h1>{{ trans('adminlte_lang::message.designed') }}</h1>
+            <h1>Interior Design, an intimate luxury pleasure.</h1>
             <br>
             <br>
             <div class="col-lg-6">
