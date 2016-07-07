@@ -45,24 +45,43 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h5>"... è il collier che valorizza il collo, il viso e il decolletè delle donne, adagiandosi proprio vicino al cuore: perchè è al cuore che la bellezza può e deve parlare..."</h5>
+                <h4 class="centered">"... è il collier che valorizza il collo, il viso e il decolletè delle donne, adagiandosi proprio vicino al cuore: perchè è al cuore che la bellezza può e deve parlare..."</h4>
                 <br>
-                <!-- ACCORDION -->
-                <div class="accordion ac" id="accordion2">
-                    <div class="accordion-group">
-                        <div class="accordion-heading">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-                                {{ trans('adminlte_lang::message.design') }}
-                            </a>
-                        </div><!-- /accordion-heading -->
-                        <div id="collapseOne" class="accordion-body collapse in">
-                            <div class="accordion-inner">
-                                <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                            </div><!-- /accordion-inner -->
-                        </div><!-- /collapse -->
-                    </div><!-- /accordion-group -->
-                    <br>
-                </div><!-- Accordion -->
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div id="carousel-example-generic" class="carousel slide">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="{{ asset('/img/interno12/jewels/home_05.jpg') }}" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="{{ asset('/img/interno12/jewels/home_01.jpg') }}" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="{{ asset('/img/interno12/jewels/home_02.jpg') }}" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="{{ asset('/img/interno12/jewels/home_03.jpg') }}" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="{{ asset('/img/interno12/jewels/home_04.jpg') }}" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="{{ asset('/img/interno12/jewels/home_06.jpg') }}" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div><!--/ .container -->
