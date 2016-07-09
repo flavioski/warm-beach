@@ -23,7 +23,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
     <meta name="twitter:site" content="@acachawiki" />
     <meta name="twitter:creator" content="@acacha1" />
 
-    <title>Fashion</title>
+    <title>interno 12 Fashion</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{ asset('/css/bootstrap.css') }}" rel="stylesheet">
@@ -53,7 +53,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><b>interno 12</b></a>
+            <a class="navbar-brand" href="{{ url('/') }}" title="Home Page"><b>interno 12</b></a>
         </div>
         <div class="navbar-collapse collapse" id="navbar-collapse">
             <ul class="nav navbar-nav">
@@ -134,7 +134,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
         <div class="col-lg-5">
             <h3>{{ trans('adminlte_lang::message.address') }}</h3>
             <p>
-                Chiara Dal Ben,<br/>
+                <a href="{{ url('/me') }}" title="Me">Chiara Dal Ben</a>,<br/>
                 Italy,<br/>
                 +39 340 6224008<br/>
                 chiara.dalben@interno12.net
@@ -166,8 +166,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 <div id="c">
     <div class="container">
         <p>
-            {{ trans('adminlte_lang::message.descriptionpackage') }}.<br/>
-            <strong>Copyright &copy; 2015 by interno 12 All Rights Reserved.</strong> {{ trans('adminlte_lang::message.createdby') }} interno 12.
+            <strong>Copyright &copy; 2016 by interno 12 All Rights Reserved.</strong> {{ trans('adminlte_lang::message.createdby') }} <a href="#" title="+F">+F</a>.
             <br>
             Vat No. 01735080937
         </p>
@@ -179,10 +178,5 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="{{ asset('/js/bootstrap.min.js') }}" type="text/javascript"></script>
-<script>
-    $('.carousel').carousel({
-        interval: 3500
-    })
-</script>
 </body>
 </html>
