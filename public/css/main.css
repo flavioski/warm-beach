@@ -122,6 +122,14 @@ a:after {
     padding-bottom: 50px;
 }
 
+/* Me Wrap */
+
+#desc-me {
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 /* intro Wrap */
 
 #intro {
