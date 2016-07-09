@@ -104,7 +104,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 <div id="desc-home-design">
     <div class="container">
         <div class="row centered">
-            <img src="{{ asset('/img/interno12/home-design/privates_01') }}" alt="home design">
+            <img src="{{ asset('/img/interno12/home-design/privates_01.jpg') }}" alt="home design">
             <p>L'ascolto e l'analisi delle esigenze del Cliente mi permetterà di identificare la sua Home Image grazie all'applicazione delle regole di base della Consulenza d'Interni:</p>
             <ol>
                 <li>Individuare i problemi legati alla <b>gestione funzionale</b> degli spazi abitativi (dove e come organizzare al meglio i vari ambienti) e proporre la soluzione più adeguata.</li>
