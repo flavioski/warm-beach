@@ -3,8 +3,45 @@
 Landing page based on Pratt: http://blacktie.co/demo/pratt/
 -->
 <html lang="en">
-@extends('layouts.partials.frontend.htmlheader')
-@section('htmlheader_title') Jewels @endsection
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="interno 12 - interior, jewels design & fashion">
+    <meta name="author" content="Chiara Dal Ben Designer">
+
+    <meta property="og:title" content="interno 12" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="interno 12 - interior, jewels design & fashion" />
+    <meta property="og:url" content="http://www.interno12.net/" />
+    <meta property="og:image" content="http://www.interno12.net/img/logo.png" />
+    <meta property="og:image" content="http://www.interno12.net/img/logo600x600.png" />
+    <meta property="og:image" content="http://www.interno12.net/img/logo600x314.png" />
+    <meta property="og:sitename" content="www.interno12.net" />
+    <meta property="og:url" content="http://www.interno12.net" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@acachawiki" />
+    <meta name="twitter:creator" content="@acacha1" />
+
+    <title>interno 12 Jewels</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{ asset('/css/bootstrap.css') }}" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="{{ asset('/css/main.css') }}" rel="stylesheet">
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+
+    <script src="{{ asset('/plugins/jQuery/jQuery-2.1.4.min.js') }}"></script>
+    <script src="{{ asset('/js/smoothscroll.js') }}"></script>
+
+
+</head>
+
+
+
 <body data-spy="scroll" data-offset="0" data-target="#navigation">
 
 <!-- Fixed navbar -->
@@ -43,48 +80,49 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 <div id="desc-jewels">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <h4 class="centered">"... è il collier che valorizza il collo, il viso e il decolletè delle donne, adagiandosi proprio vicino al cuore: perchè è al cuore che la bellezza può e deve parlare..."</h4>
-                <br>
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div id="carousel-example-generic" class="carousel slide">
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators">
-                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="5"></li>
-                        </ol>
+            <h4 class="centered">"... è il collier che valorizza il collo, il viso e il decolletè delle donne, adagiandosi proprio vicino al cuore: perchè è al cuore che la bellezza può e deve parlare..."</h4>
+            <br>
+            <div class="col-lg-8 col-lg-offset-2">
+                <div id="carousel-example-generic" class="carousel slide">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+                    </ol>
 
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <img src="{{ asset('/img/interno12/jewels/home_05.jpg') }}" alt="">
-                            </div>
-                            <div class="item">
-                                <img src="{{ asset('/img/interno12/jewels/home_01.jpg') }}" alt="">
-                            </div>
-                            <div class="item">
-                                <img src="{{ asset('/img/interno12/jewels/home_02.jpg') }}" alt="">
-                            </div>
-                            <div class="item">
-                                <img src="{{ asset('/img/interno12/jewels/home_03.jpg') }}" alt="">
-                            </div>
-                            <div class="item">
-                                <img src="{{ asset('/img/interno12/jewels/home_04.jpg') }}" alt="">
-                            </div>
-                            <div class="item">
-                                <img src="{{ asset('/img/interno12/jewels/home_06.jpg') }}" alt="">
-                            </div>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="{{ asset('/img/interno12/jewels/home_05.jpg') }}" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="{{ asset('/img/interno12/jewels/home_01.jpg') }}" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="{{ asset('/img/interno12/jewels/home_02.jpg') }}" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="{{ asset('/img/interno12/jewels/home_03.jpg') }}" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="{{ asset('/img/interno12/jewels/home_04.jpg') }}" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="{{ asset('/img/interno12/jewels/home_06.jpg') }}" alt="">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <br>
+        <br>
+        <br>
     </div><!--/ .container -->
-</div><!--/ #features -->
+</div>
 
 
 <section id="contact" name="contact"></section>
@@ -93,7 +131,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
         <div class="col-lg-5">
             <h3>{{ trans('adminlte_lang::message.address') }}</h3>
             <p>
-                Chiara Dal Ben,<br/>
+                <a href="{{ url('/me') }}" title="Me">Chiara Dal Ben</a>,<br/>
                 Italy,<br/>
                 +39 340 6224008<br/>
                 chiara.dalben@interno12.net
@@ -125,8 +163,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 <div id="c">
     <div class="container">
         <p>
-            {{ trans('adminlte_lang::message.descriptionpackage') }}.<br/>
-            <strong>Copyright &copy; 2015 by interno 12 All Rights Reserved.</strong> {{ trans('adminlte_lang::message.createdby') }} interno 12.
+            <strong>Copyright &copy; 2016 by interno 12 All Rights Reserved.</strong> {{ trans('adminlte_lang::message.createdby') }} <a href="#" title="+F">+F</a>.
             <br>
             Vat No. 01735080937
         </p>
