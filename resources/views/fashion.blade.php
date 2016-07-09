@@ -76,136 +76,45 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 </div>
 
 
-<section id="interior" name="interior"></section>
-<div id="desc-interior">
-    <div class="container">
-        <div class="row centered">
-            <h1>{{ trans('adminlte_lang::message.designed') }}</h1>
-            <br>
-            <br>
-            <div class="col-lg-4">
-                <img src="{{ asset('/img/intro01.png') }}" alt="">
-                <h3>{{ trans('adminlte_lang::message.community') }}</h3>
-                <p>{{ trans('adminlte_lang::message.see') }} <a href="https://github.com/acacha/adminlte-laravel">{{ trans('adminlte_lang::message.githubproject') }}</a>, {{ trans('adminlte_lang::message.post') }} <a href="https://github.com/acacha/adminlte-laravel/issues">{{ trans('adminlte_lang::message.issues') }}</a> {{ trans('adminlte_lang::message.and') }} <a href="https://github.com/acacha/adminlte-laravel/pulls">{{ trans('adminlte_lang::message.pullrequests') }}</a></p>
-            </div>
-            <div class="col-lg-4">
-                <img src="{{ asset('/img/intro02.png') }}" alt="">
-                <h3>{{ trans('adminlte_lang::message.schedule') }}</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            </div>
-            <div class="col-lg-4">
-                <img src="{{ asset('/img/intro03.png') }}" alt="">
-                <h3>{{ trans('adminlte_lang::message.monitoring') }}</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            </div>
-        </div>
-        <br>
-        <hr>
-    </div> <!--/ .container -->
-</div><!--/ #introwrap -->
-
-<section id="jewels" name="jewels"></section>
-<div id="desc-jewels">
-    <div class="container">
-        <div class="row">
-            <h1 class="centered">{{ trans('adminlte_lang::message.whatnew') }}</h1>
-            <br>
-            <br>
-            <div class="col-lg-6 centered">
-                <img class="centered" src="{{ asset('/img/mobile.png') }}" alt="">
-            </div>
-
-            <div class="col-lg-6">
-                <h3>{{ trans('adminlte_lang::message.features') }}</h3>
-                <br>
-                <!-- ACCORDION -->
-                <div class="accordion ac" id="accordion2">
-                    <div class="accordion-group">
-                        <div class="accordion-heading">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-                                {{ trans('adminlte_lang::message.design') }}
-                            </a>
-                        </div><!-- /accordion-heading -->
-                        <div id="collapseOne" class="accordion-body collapse in">
-                            <div class="accordion-inner">
-                                <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                            </div><!-- /accordion-inner -->
-                        </div><!-- /collapse -->
-                    </div><!-- /accordion-group -->
-                    <br>
-
-                    <div class="accordion-group">
-                        <div class="accordion-heading">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-                                {{ trans('adminlte_lang::message.retina') }}
-                            </a>
-                        </div>
-                        <div id="collapseTwo" class="accordion-body collapse">
-                            <div class="accordion-inner">
-                                <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                            </div><!-- /accordion-inner -->
-                        </div><!-- /collapse -->
-                    </div><!-- /accordion-group -->
-                    <br>
-
-                    <div class="accordion-group">
-                        <div class="accordion-heading">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
-                                {{ trans('adminlte_lang::message.support') }}
-                            </a>
-                        </div>
-                        <div id="collapseThree" class="accordion-body collapse">
-                            <div class="accordion-inner">
-                                <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                            </div><!-- /accordion-inner -->
-                        </div><!-- /collapse -->
-                    </div><!-- /accordion-group -->
-                    <br>
-
-                    <div class="accordion-group">
-                        <div class="accordion-heading">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
-                                {{ trans('adminlte_lang::message.responsive') }}
-                            </a>
-                        </div>
-                        <div id="collapseFour" class="accordion-body collapse">
-                            <div class="accordion-inner">
-                                <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                            </div><!-- /accordion-inner -->
-                        </div><!-- /collapse -->
-                    </div><!-- /accordion-group -->
-                    <br>
-                </div><!-- Accordion -->
-            </div>
-        </div>
-    </div><!--/ .container -->
-</div><!--/ #features -->
-
-
 <section id="fashion" name="fashion"></section>
 <div id="desc-fashion">
     <div class="container">
         <div class="row">
-            <h1 class="centered">{{ trans('adminlte_lang::message.screenshots') }}</h1>
+            <h1 class="centered">Fashion style</h1>
             <br>
-            <div class="col-lg-8 col-lg-offset-2">
-                <div id="carousel-example-generic" class="carousel slide">
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                    </ol>
+            <div class="col-lg-12">
+                <img src="{{ asset('/img/fashion/fashion_01.jpg') }}" alt="fashion">
+                <p>Come Consulente di Immagine mi prendo cura dei desideri e dei bisogni di coloro che riconoscono l'<b>alto valore comunicativo della propria immagine</b> e intendono rafforzarla strategicamente.
+                    Ma anche di coloro che hanno compreso che per avere successo e stare bene con gli altri occorrre stare prima bene con se stessi e vogliono dedicarsi all'<b>accrescimento della propria autostima</b> passando attraverso la valorizzazione dela propria immagine.</p>
+                <p>Attraverso l'applicazione delle regole di base della Consulenza di Immagine delineerò l'<b>Immagine armonica</b> della persona e insieme costruiremo una nuova immagine più aderente alla sua personalità.</p>
 
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <img src="{{ asset('/img/item-01.png') }}" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="{{ asset('/img/item-02.png') }}" alt="">
-                        </div>
-                    </div>
-                </div>
+                <h3 class="centered">CONSIGLI DI BELLEZZA</h3>
+                <ul>
+                    <li><b>Analisi del Colore</b> con identificazione dei "colori Amici" e della palette colori di riferimento.</li>
+                    <li><b>Consigli sul Make-up</b> più adatto in relazione ai colori di pelle e capelli.</li>
+                    <li>Suggerimenti sul <b>taglio di capelli</b> più coerente con la forma del viso.</li>
+                    <li>Supporto alla <b>scelta di gioelli, accessori e occhiali da sole.</b></li>
+                </ul>
+
+                <h3 class="centered">CONSIGLI DI ELEGANZA</h3>
+                <ul>
+                    <li><b>Analisi della figura</b> e Individuazione della propria Body Shape con le relative caratteristiche.</li>
+                    <li>Suggerimenti sull'<b>abbigliamento strategico</b> in base ai punti di forza e di debolezza.</li>
+                    <li>Studio e definizione dello <b>stile di riferimento</b>, in sintonia con la personalità, il lifestyle e l'età della Cliente.</li>
+                    <li><b>Supporto nella scelta di tessuti, colori e accessori</b> che valorizzano le proprie caratteristiche fisiche e loro relativi abbinamenti.</li>
+                    <li><b>Guida alla scelta di borse, scarpe e accessori</b> chiave per un total look di successo.</li>
+                </ul>
+
+                <h3 class="centered">IL METODO</h3>
+                <p>Il percorso, condiviso con i Clienti, prevede le seguenti fasi:</p>
+                <ul>
+                    <li><b>Incontro personale conoscitivo</b> (gratuito e senza impegno) nel corso del quale i Clienti mi spiegano le loro esigenze e ciò che si aspettano dal mio intervento ed io illustro loro il mio metodo di lavoro e spiego ciò in cui posso essere loro utile.</li>
+                    <li>Elaborazione di un <b>piano di consulenza personalizzato</b> accompagnato dalla presentazione di costi e metodo. I tempi per il raggiungimento dell'obiettivo possono poi variare a seconda della persona e delle sue esigenze nonchè dal tempo che la stessa può dedicare a questa attività.</li>
+                </ul>
+
+                <h3 class="centered">QUANTO COSTA</h3>
+                <p>Le tariffe per una Consulenza d'Immagine sono in linea con le normali tariffe corrisposte per una qualsiasi consulenza fornita da un professionista competente ed affidabile che mette a disposizione la propria esperienza maturata in anni di applicazione ed impegno.</p>
+                <p>In ogni casa l'ordine di grandezza è di poche centinaia di euro ma naturalemte questo può dipendere sensibilmente dalle richieste del Cliente che vengono di volta in volta valutate insieme.</p>
             </div>
         </div>
         <br>
