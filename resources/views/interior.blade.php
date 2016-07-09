@@ -11,15 +11,14 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 <div id="navigation" class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="icon-bar"></span>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="{{ url('/') }}" title="Home Page"><b>interno 12</b></a>
         </div>
-        <div class="navbar-collapse collapse">
+        <div class="navbar-collapse collapse" id="navbar-collapse">
             <ul class="nav navbar-nav">
                 <li><a href="{{ url ('/') }}" title="Home" class="smoothScroll">{{ trans('adminlte_lang::message.home') }}</a></li>
                 <li class="active"><a href="#interior" title="Interior" class="smoothScroll">Interior</a></li>
