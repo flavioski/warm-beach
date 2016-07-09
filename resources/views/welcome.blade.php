@@ -15,7 +15,6 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="{{ url('/') }}" title="Home Page"><b>interno 12</b></a>
         </div>
