@@ -48,14 +48,14 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 <div id="navigation" class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="#"><b>adminlte-laravel</b></a>
         </div>
-        <div class="navbar-collapse collapse">
+        <div class="navbar-collapse collapse" id="navbar-collapse">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#home" class="smoothScroll">Home</a></li>
                 <li><a href="#desc" class="smoothScroll">Description</a></li>
@@ -120,7 +120,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                 <p>See <a href="https://github.com/acacha/adminlte-laravel">Github project</a>, post <a href="https://github.com/acacha/adminlte-laravel/issues">issues</a> and <a href="https://github.com/acacha/adminlte-laravel/pulls">Pull requests</a></p>
             </div>
             <div class="col-lg-4">
-                <img src="{{ asset('/img/intro02.png) }}" alt="">
+                <img src="{{ asset('/img/intro02.png') }}" alt="">
                 <h3>Schedule</h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </div>
