@@ -30,3 +30,7 @@ Route::get('fashion', function () {
 Route::get('demo', function () {
     return view('demo');
 });
+
+Route::get('me', function () {
+    return view('me');
+});
