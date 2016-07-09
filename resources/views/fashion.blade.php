@@ -83,20 +83,22 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
             <h1 class="centered">Fashion style</h1>
             <br>
             <div class="col-lg-12">
-                <img src="{{ asset('/img/fashion/fashion_01.jpg') }}" alt="fashion">
+                <img src="{{ asset('/img/interno12/fashion/fashion_01.jpg') }}" alt="fashion">
                 <p>Come Consulente di Immagine mi prendo cura dei desideri e dei bisogni di coloro che riconoscono l'<b>alto valore comunicativo della propria immagine</b> e intendono rafforzarla strategicamente.
                     Ma anche di coloro che hanno compreso che per avere successo e stare bene con gli altri occorrre stare prima bene con se stessi e vogliono dedicarsi all'<b>accrescimento della propria autostima</b> passando attraverso la valorizzazione dela propria immagine.</p>
                 <p>Attraverso l'applicazione delle regole di base della Consulenza di Immagine delineerò l'<b>Immagine armonica</b> della persona e insieme costruiremo una nuova immagine più aderente alla sua personalità.</p>
-
-                <h3 class="centered">CONSIGLI DI BELLEZZA</h3>
+                <br>
+                <br>
+                <h3 class="centered">Consigli di Bellezza</h3>
                 <ul>
                     <li><b>Analisi del Colore</b> con identificazione dei "colori Amici" e della palette colori di riferimento.</li>
                     <li><b>Consigli sul Make-up</b> più adatto in relazione ai colori di pelle e capelli.</li>
                     <li>Suggerimenti sul <b>taglio di capelli</b> più coerente con la forma del viso.</li>
                     <li>Supporto alla <b>scelta di gioelli, accessori e occhiali da sole.</b></li>
                 </ul>
-
-                <h3 class="centered">CONSIGLI DI ELEGANZA</h3>
+                <br>
+                <br>
+                <h3 class="centered">Consigli di Eleganza</h3>
                 <ul>
                     <li><b>Analisi della figura</b> e Individuazione della propria Body Shape con le relative caratteristiche.</li>
                     <li>Suggerimenti sull'<b>abbigliamento strategico</b> in base ai punti di forza e di debolezza.</li>
@@ -104,15 +106,17 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                     <li><b>Supporto nella scelta di tessuti, colori e accessori</b> che valorizzano le proprie caratteristiche fisiche e loro relativi abbinamenti.</li>
                     <li><b>Guida alla scelta di borse, scarpe e accessori</b> chiave per un total look di successo.</li>
                 </ul>
-
-                <h3 class="centered">IL METODO</h3>
+                <br>
+                <br>
+                <h3 class="centered">Il Metodo</h3>
                 <p>Il percorso, condiviso con i Clienti, prevede le seguenti fasi:</p>
                 <ul>
                     <li><b>Incontro personale conoscitivo</b> (gratuito e senza impegno) nel corso del quale i Clienti mi spiegano le loro esigenze e ciò che si aspettano dal mio intervento ed io illustro loro il mio metodo di lavoro e spiego ciò in cui posso essere loro utile.</li>
                     <li>Elaborazione di un <b>piano di consulenza personalizzato</b> accompagnato dalla presentazione di costi e metodo. I tempi per il raggiungimento dell'obiettivo possono poi variare a seconda della persona e delle sue esigenze nonchè dal tempo che la stessa può dedicare a questa attività.</li>
                 </ul>
-
-                <h3 class="centered">QUANTO COSTA</h3>
+                <br>
+                <br>
+                <h3 class="centered">Quanto Costa</h3>
                 <p>Le tariffe per una Consulenza d'Immagine sono in linea con le normali tariffe corrisposte per una qualsiasi consulenza fornita da un professionista competente ed affidabile che mette a disposizione la propria esperienza maturata in anni di applicazione ed impegno.</p>
                 <p>In ogni casa l'ordine di grandezza è di poche centinaia di euro ma naturalemte questo può dipendere sensibilmente dalle richieste del Cliente che vengono di volta in volta valutate insieme.</p>
             </div>
