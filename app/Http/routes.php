@@ -26,3 +26,7 @@ Route::get('jewels', function () {
 Route::get('fashion', function () {
     return view('fashion');
 });
+
+Route::get('demo', function () {
+    return view('demo');
+});
