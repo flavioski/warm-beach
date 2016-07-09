@@ -104,58 +104,59 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 <div id="desc-home-design">
     <div class="container">
         <div class="row centered">
-            <img src="{{ asset('/img/interno12/home-design/privates_01.jpg') }}" alt="home design">
-            <p>L'ascolto e l'analisi delle esigenze del Cliente mi permetterà di identificare la sua Home Image grazie all'applicazione delle regole di base della Consulenza d'Interni:</p>
-            <ol>
-                <li>Individuare i problemi legati alla <b>gestione funzionale</b> degli spazi abitativi (dove e come organizzare al meglio i vari ambienti) e proporre la soluzione più adeguata.</li>
-                <li>Conferire agli interni un carattere estetico (come scegliere gli arredi, le luci, i tessuti, i colori, i complementi) coerente con la personalità delle persone che lo vivono.</li>
-            </ol>
-            <br>
-            <br>
-            <h3 class="centered">Gli Ambiti di Intervento</h3>
-            <p><b style="color:#007575;">Home Design</b> – Quando si è alle prese con l'arredamento di una nuova casa o quando si desidera rinnovare quello di un ambiente è spesso complicato comprendere da cosa iniziare e con quali priorità.
+            <div class="col-lg-12">
+                <img src="{{ asset('/img/interno12/home-design/privates_01.jpg') }}" alt="home design">
+                <p>L'ascolto e l'analisi delle esigenze del Cliente mi permetterà di identificare la sua Home Image grazie all'applicazione delle regole di base della Consulenza d'Interni:</p>
+                <ol>
+                    <li>Individuare i problemi legati alla <b>gestione funzionale</b> degli spazi abitativi (dove e come organizzare al meglio i vari ambienti) e proporre la soluzione più adeguata.</li>
+                    <li>Conferire agli interni un carattere estetico (come scegliere gli arredi, le luci, i tessuti, i colori, i complementi) coerente con la personalità delle persone che lo vivono.</li>
+                </ol>
                 <br>
-                Sarà mia cura seguirvi con passione e attenzione in questa entusiasmante avventura, indicandovi passo per passo le fasi da seguire per arrivare senza sorprese all’obiettivo.
                 <br>
-                Vi consiglierò <b>le disposizioni degli arredi più funzionali</b> e vi guiderò nella scelta <b>dei mobili, imbottiti, tendaggi</b>, esteticamente in linea con il vostro gusto.
-                <br>
-                Sceglieremo insieme colori e illuminazione per creare ambienti altamente personalizzati e sofisticati!</p>
-            <p><b style="color:#007575;">Interior Decoration</b> – Decorare significa aggiungere quel tocco di stile assolutamente personale al nostro ambiente che ci avvolge e ci fa sentire a casa. E’ il momento in cui finalmente tutto comincia a parlare di noi e del nostro mondo di emozioni e di desideri.
-                <br>
-                Decorare è <b>aggiungere Bellezza</b> attraverso la selezione di oggettistica, complementi, opere d’arte, wallpaper, tessuti, pitture murarie scelti con cura e con lo sguardo sempre attento all'<b>armonia dell'insieme</b>.
-                <br>
-                Decorando, ogni progetto stilisticamente perfetto, ma ancora un po’ troppo asettico, inizia a vivere!
-                <br>
-                Vi accompagnerò in questo viaggio verso la scoperta del vostro Decor Style e vi darò utili suggerimenti per la sua corretta applicazione.</p>
-            <p><b style="color:#007575;">Interior Restyling</b> – A volte bastano poche mosse per cambiare il look di un ambiente sia esso la casa dove viviamo o l’ufficio dove lavoriamo.
-                <br>
-                O, ancora, il locale che gestiamo e che ha bisogno, periodicamente di rinfrescare la propria immagine per continuare ad essere attrattivo.
-                <br>
-                In questi casi non è necessario stravolgere il layout ma solo migliorare l’impatto estetico valorizzando certi angoli o mimetizzando delle zone o prospettive che abbiamo capito essere penalizzanti.
-                <br>
-                La consulenza di Interior Restyling ha l'obiettivo di <b>restituire ad un ambiente un'immagine attuale</b> che, rispecchiando i canoni estetici in vigore indipendentemente dallo stile, trasmetta alle persone che ci vivono una sensazione di benessere.
-                <br>
-                Ciò avviene attraverso pochi e mirati interventi relativi a illuminazione, colori, rivestimenti e, quando serve, anche agli arredi attraverso il loro recupero intelligente (SmartRestyling).</p>
-            <br>
-            <br>
-            <h3 class="centered">Il Metodo</h3>
-            <p>Il percorso, condiviso con i Clienti, prevede le seguenti fasi:</p>
-            <ul>
-                <li><b style="color:#007575;">Incontro personale conoscitivo</b> (gratuito e senza impegno) nel corso del quale i Clienti mi spiegano le loro esigenze e ciò che si aspettano dal mio intervento ed io illustro loro il mio metodo di lavoro.
+                <h3 class="centered">Gli Ambiti di Intervento</h3>
+                <p><b style="color:#007575;">Home Design</b> – Quando si è alle prese con l'arredamento di una nuova casa o quando si desidera rinnovare quello di un ambiente è spesso complicato comprendere da cosa iniziare e con quali priorità.
                     <br>
-                    Questo incontro può avvenire anche in casa dei Clienti, qualora lo preferiscano, o ricorrendo alle e-mail.</li>
-                <li><b style="color:#007575;">Raccolta della documentazione</b> (piante,sezioni e fotografie dell’oggetto dell’intervento) necessaria all’elaborazione di un piano di progetto e del relativo preventivo.</li>
-                <li>Presentazione e discussione del planning e del <b style="color:#007575;">preventivo</b>.</li>
-                <li><b style="color:#007575;">Rilievo</b> dello stato di fatto.</li>
-                <li>Presentazione e discussione del <b style="color:#007575;">progetto di massima</b> (almeno due varianti) supportato da render fotorealistici.</li>
-                <li>Aggiornamento del progetto di massima ed elaborazione del <b style="color:#007575;">progetto definitivo</b> supportato da render fotorealistici.</li>
-            </ul>
-            <br>
-            <br>
-            <h3 class="centered">Servizi Supplementari</h3>
-            <p><b style="color:#007575;">Visite agli showroom</b> dove si possono vedere e "toccare con mano" gli arredi che sono stati proposti ed insieme pre-selezionati. L'esperienza diretta dei prodotti è sempre estremamente efficace, oltre che entusiasmante, perché aiuta ad entrare nel vivo del progetto immaginando l'esito finale.</p>
-            <p><b style="color:#007575;">Elaborazione dei preventivi relativi agli arredi</b> e alle varie opere previste dal progetto. Questo supporto è molto utile quando si desidera evitare il lungo e delicato lavoro di ricerca e selezione delle maestranze e la relativa gestione.</p>
-            <p><b style="color:#007575;">Direzione del cantiere</b> con il coordinamento delle maestranze interessate. Questa fase è sempre piuttosto impegnativa per il Cliente da seguire direttamente perché mettere d’accordo tutti relativamente ai tempi e ai modi non è cosa facile e richiede tempo e molta pazienza!</p>
+                    Sarà mia cura seguirvi con passione e attenzione in questa entusiasmante avventura, indicandovi passo per passo le fasi da seguire per arrivare senza sorprese all’obiettivo.
+                    <br>
+                    Vi consiglierò <b>le disposizioni degli arredi più funzionali</b> e vi guiderò nella scelta <b>dei mobili, imbottiti, tendaggi</b>, esteticamente in linea con il vostro gusto.
+                    <br>
+                    Sceglieremo insieme colori e illuminazione per creare ambienti altamente personalizzati e sofisticati!</p>
+                <p><b style="color:#007575;">Interior Decoration</b> – Decorare significa aggiungere quel tocco di stile assolutamente personale al nostro ambiente che ci avvolge e ci fa sentire a casa. E’ il momento in cui finalmente tutto comincia a parlare di noi e del nostro mondo di emozioni e di desideri.
+                    <br>
+                    Decorare è <b>aggiungere Bellezza</b> attraverso la selezione di oggettistica, complementi, opere d’arte, wallpaper, tessuti, pitture murarie scelti con cura e con lo sguardo sempre attento all'<b>armonia dell'insieme</b>.
+                    <br>
+                    Decorando, ogni progetto stilisticamente perfetto, ma ancora un po’ troppo asettico, inizia a vivere!
+                    <br>
+                    Vi accompagnerò in questo viaggio verso la scoperta del vostro Decor Style e vi darò utili suggerimenti per la sua corretta applicazione.</p>
+                <p><b style="color:#007575;">Interior Restyling</b> – A volte bastano poche mosse per cambiare il look di un ambiente sia esso la casa dove viviamo o l’ufficio dove lavoriamo.
+                    <br>
+                    O, ancora, il locale che gestiamo e che ha bisogno, periodicamente di rinfrescare la propria immagine per continuare ad essere attrattivo.
+                    <br>
+                    In questi casi non è necessario stravolgere il layout ma solo migliorare l’impatto estetico valorizzando certi angoli o mimetizzando delle zone o prospettive che abbiamo capito essere penalizzanti.
+                    <br>
+                    La consulenza di Interior Restyling ha l'obiettivo di <b>restituire ad un ambiente un'immagine attuale</b> che, rispecchiando i canoni estetici in vigore indipendentemente dallo stile, trasmetta alle persone che ci vivono una sensazione di benessere.
+                    <br>
+                    Ciò avviene attraverso pochi e mirati interventi relativi a illuminazione, colori, rivestimenti e, quando serve, anche agli arredi attraverso il loro recupero intelligente (SmartRestyling).</p>
+                <br>
+                <br>
+                <h3 class="centered">Il Metodo</h3>
+                <p>Il percorso, condiviso con i Clienti, prevede le seguenti fasi:</p>
+                <ul>
+                    <li><b style="color:#007575;">Incontro personale conoscitivo</b> (gratuito e senza impegno) nel corso del quale i Clienti mi spiegano le loro esigenze e ciò che si aspettano dal mio intervento ed io illustro loro il mio metodo di lavoro.
+                        <br>
+                        Questo incontro può avvenire anche in casa dei Clienti, qualora lo preferiscano, o ricorrendo alle e-mail.</li>
+                    <li><b style="color:#007575;">Raccolta della documentazione</b> (piante,sezioni e fotografie dell’oggetto dell’intervento) necessaria all’elaborazione di un piano di progetto e del relativo preventivo.</li>
+                    <li>Presentazione e discussione del planning e del <b style="color:#007575;">preventivo</b>.</li>
+                    <li><b style="color:#007575;">Rilievo</b> dello stato di fatto.</li>
+                    <li>Presentazione e discussione del <b style="color:#007575;">progetto di massima</b> (almeno due varianti) supportato da render fotorealistici.</li>
+                    <li>Aggiornamento del progetto di massima ed elaborazione del <b style="color:#007575;">progetto definitivo</b> supportato da render fotorealistici.</li>
+                </ul>
+                <br>
+                <br>
+                <h3 class="centered">Servizi Supplementari</h3>
+                <p><b style="color:#007575;">Visite agli showroom</b> dove si possono vedere e "toccare con mano" gli arredi che sono stati proposti ed insieme pre-selezionati. L'esperienza diretta dei prodotti è sempre estremamente efficace, oltre che entusiasmante, perché aiuta ad entrare nel vivo del progetto immaginando l'esito finale.</p>
+                <p><b style="color:#007575;">Elaborazione dei preventivi relativi agli arredi</b> e alle varie opere previste dal progetto. Questo supporto è molto utile quando si desidera evitare il lungo e delicato lavoro di ricerca e selezione delle maestranze e la relativa gestione.</p>
+                <p><b style="color:#007575;">Direzione del cantiere</b> con il coordinamento delle maestranze interessate. Questa fase è sempre piuttosto impegnativa per il Cliente da seguire direttamente perché mettere d’accordo tutti relativamente ai tempi e ai modi non è cosa facile e richiede tempo e molta pazienza!</p>            </div>
         </div>
     </div> <!-- / .container -->
 </div>
