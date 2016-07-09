@@ -59,7 +59,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
             <ul class="nav navbar-nav">
                 <li><a href="{{ url ('/') }}" title="Home" class="smoothScroll">{{ trans('adminlte_lang::message.home') }}</a></li>
                 <li><a href="{{ url('/interior') }}" class="smoothScroll">Interior</a></li>
-                <li class="active"><a href="#interior" class="smoothScroll">Jewels</a></li>
+                <li class="active"><a href="#jewels" class="smoothScroll">Jewels</a></li>
                 <li><a href="{{ url('/fashion') }}" title="Fashion" class="smoothScroll">Fashion</a></li>
                 <li><a href="#contact" title="Contact" class="smoothScroll">Contact</a></li>
             </ul>
