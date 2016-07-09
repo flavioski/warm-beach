@@ -83,7 +83,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
             <h1 class="centered">Fashion style</h1>
             <br>
             <div class="col-lg-12">
-                <img src="{{ asset('/img/interno12/fashion/fashion_01.jpg') }}" alt="fashion">
+                <img src="{{ asset('/img/interno12/fashion/fashion_01.jpg') }}" alt="fashion" class="img-responsive">
                 <p>Come Consulente di Immagine mi prendo cura dei desideri e dei bisogni di coloro che riconoscono l'<b>alto valore comunicativo della propria immagine</b> e intendono rafforzarla strategicamente.
                     Ma anche di coloro che hanno compreso che per avere successo e stare bene con gli altri occorrre stare prima bene con se stessi e vogliono dedicarsi all'<b>accrescimento della propria autostima</b> passando attraverso la valorizzazione dela propria immagine.</p>
                 <p>Attraverso l'applicazione delle regole di base della Consulenza di Immagine delineerò l'<b>Immagine armonica</b> della persona e insieme costruiremo una nuova immagine più aderente alla sua personalità.</p>
