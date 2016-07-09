@@ -3,28 +3,64 @@
 Landing page based on Pratt: http://blacktie.co/demo/pratt/
 -->
 <html lang="en">
-@extends('layouts.partials.frontend.htmlheader')
-@section('htmlheader_title') Fashion @endsection
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="interno 12 - interior, jewels design & fashion">
+    <meta name="author" content="Chiara Dal Ben Designer">
+
+    <meta property="og:title" content="interno 12" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="interno 12 - interior, jewels design & fashion" />
+    <meta property="og:url" content="http://www.interno12.net/" />
+    <meta property="og:image" content="http://www.interno12.net/img/logo.png" />
+    <meta property="og:image" content="http://www.interno12.net/img/logo600x600.png" />
+    <meta property="og:image" content="http://www.interno12.net/img/logo600x314.png" />
+    <meta property="og:sitename" content="www.interno12.net" />
+    <meta property="og:url" content="http://www.interno12.net" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@acachawiki" />
+    <meta name="twitter:creator" content="@acacha1" />
+
+    <title>Fashion</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{ asset('/css/bootstrap.css') }}" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="{{ asset('/css/main.css') }}" rel="stylesheet">
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+
+    <script src="{{ asset('/plugins/jQuery/jQuery-2.1.4.min.js') }}"></script>
+    <script src="{{ asset('/js/smoothscroll.js') }}"></script>
+
+
+</head>
+
+
+
 <body data-spy="scroll" data-offset="0" data-target="#navigation">
 
 <!-- Fixed navbar -->
 <div id="navigation" class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="icon-bar"></span>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="#"><b>interno 12</b></a>
         </div>
-        <div class="navbar-collapse collapse">
+        <div class="navbar-collapse collapse" id="navbar-collapse">
             <ul class="nav navbar-nav">
-                <li><a href="#home" title="Home" class="smoothScroll">{{ trans('adminlte_lang::message.home') }}</a></li>
-                <li class="active"><a href="#interior" title="Interior" class="smoothScroll">Interior</a></li>
+                <li><a href="{{ url('/') }}" title="Home" class="smoothScroll">{{ trans('adminlte_lang::message.home') }}</a></li>
+                <li><a href="{{ url('/interior') }}" title="Interior" class="smoothScroll">Interior</a></li>
                 <li><a href="{{ url('/jewels') }}" title="Jewels" class="smoothScroll">Jewels</a></li>
-                <li><a href="{{ url('/fashion') }}" title="Fashion" class="smoothScroll">Fashion</a></li>
+                <li class="active"><a href="{{ url('/fashion') }}" title="Fashion" class="smoothScroll">Fashion</a></li>
                 <li><a href="#contact" title="Contact" class="smoothScroll">Contact</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
