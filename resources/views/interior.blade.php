@@ -100,6 +100,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 </div>
 
 
+<section id="home-design" name="home-design"></section>
 <div id="desc-home-design">
     <div class="container">
         <div class="row centered">
