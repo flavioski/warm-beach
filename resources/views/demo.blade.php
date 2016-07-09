@@ -3,8 +3,45 @@
 Landing page based on Pratt: http://blacktie.co/demo/pratt/
 -->
 <html lang="en">
-@extends('layouts.partials.frontend.htmlheader')
-@section('htmlheader_title') Home @endsection
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="interno 12 - interior, jewels design & fashion">
+    <meta name="author" content="Chiara Dal Ben Designer">
+
+    <meta property="og:title" content="interno 12" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="interno 12 - interior, jewels design & fashion" />
+    <meta property="og:url" content="http://www.interno12.net/" />
+    <meta property="og:image" content="http://www.interno12.net/img/logo.png" />
+    <meta property="og:image" content="http://www.interno12.net/img/logo600x600.png" />
+    <meta property="og:image" content="http://www.interno12.net/img/logo600x314.png" />
+    <meta property="og:sitename" content="www.interno12.net" />
+    <meta property="og:url" content="http://www.interno12.net" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@acachawiki" />
+    <meta name="twitter:creator" content="@acacha1" />
+
+    <title>Demo</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{ asset('/css/bootstrap.css') }}" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="{{ asset('/css/main.css') }}" rel="stylesheet">
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+
+    <script src="{{ asset('/plugins/jQuery/jQuery-2.1.4.min.js') }}"></script>
+    <script src="{{ asset('/js/smoothscroll.js') }}"></script>
+
+
+</head>
+
+
+
 <body data-spy="scroll" data-offset="0" data-target="#navigation">
 
 <!-- Fixed navbar -->
@@ -78,17 +115,17 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
             <br>
             <br>
             <div class="col-lg-4">
-                <img src="http://demo.adminlte.acacha.org/img/intro01.png" alt="">
+                <img src="{{ asset('/img/intro01.png') }}" alt="">
                 <h3>Community</h3>
                 <p>See <a href="https://github.com/acacha/adminlte-laravel">Github project</a>, post <a href="https://github.com/acacha/adminlte-laravel/issues">issues</a> and <a href="https://github.com/acacha/adminlte-laravel/pulls">Pull requests</a></p>
             </div>
             <div class="col-lg-4">
-                <img src="http://demo.adminlte.acacha.org/img/intro02.png" alt="">
+                <img src="{{ asset('/img/intro02.png) }}" alt="">
                 <h3>Schedule</h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </div>
             <div class="col-lg-4">
-                <img src="http://demo.adminlte.acacha.org/img/intro03.png" alt="">
+                <img src="{{ asset('/img/intro03.png') }}" alt="">
                 <h3>Monitoring</h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </div>
@@ -107,7 +144,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
             <br>
             <br>
             <div class="col-lg-6 centered">
-                <img class="centered" src="http://demo.adminlte.acacha.org/img/mobile.png" alt="">
+                <img class="centered" src="{{ asset('/img/mobile.png') }}" alt="">
             </div>
 
             <div class="col-lg-6">
@@ -194,10 +231,10 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="item active">
-                            <img src="http://demo.adminlte.acacha.org/img/item-01.png" alt="">
+                            <img src="{{ asset('/img/item-01.png') }}" alt="">
                         </div>
                         <div class="item">
-                            <img src="http://demo.adminlte.acacha.org/img/item-02.png" alt="">
+                            <img src="{{ asset('/img/item-02.png') }}" alt="">
                         </div>
                     </div>
                 </div>
