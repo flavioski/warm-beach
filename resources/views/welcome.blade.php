@@ -82,7 +82,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
         <div class="row centered">
             <div class="col-lg-12">
                 <h1><b>italian passion for design</b></h1>
-                <h3>a <a href="https://chiara.dalben.com/">Chiara Dal Ben</a> Designer</h3>
+                <h3>a <a href="{{ url('/me') }}" title="me">Chiara Dal Ben</a> Designer</h3>
                 <h3>interior, jewels design & fashion</h3>
             </div>
         </div>
