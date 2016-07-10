@@ -89,7 +89,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </div>
             <div class="col-lg-6">
-                <img src="{{ asset('/img/interno12/office-design/home_02_s.jpg') }}" alt="Office Design" title="Office Design">
+                <a href="#office-design" title="Office Design"><img src="{{ asset('/img/interno12/office-design/home_02_s.jpg') }}" alt="Office Design" title="Office Design"></a>
                 <h3>Office Design & Visual Merchandising</h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </div>
@@ -160,7 +160,67 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                 <h3 class="centered">Servizi Supplementari</h3>
                 <p><b style="color:#007575;">Visite agli showroom</b> dove si possono vedere e "toccare con mano" gli arredi che sono stati proposti ed insieme pre-selezionati. L'esperienza diretta dei prodotti è sempre estremamente efficace, oltre che entusiasmante, perché aiuta ad entrare nel vivo del progetto immaginando l'esito finale.</p>
                 <p><b style="color:#007575;">Elaborazione dei preventivi relativi agli arredi</b> e alle varie opere previste dal progetto. Questo supporto è molto utile quando si desidera evitare il lungo e delicato lavoro di ricerca e selezione delle maestranze e la relativa gestione.</p>
-                <p><b style="color:#007575;">Direzione del cantiere</b> con il coordinamento delle maestranze interessate. Questa fase è sempre piuttosto impegnativa per il Cliente da seguire direttamente perché mettere d’accordo tutti relativamente ai tempi e ai modi non è cosa facile e richiede tempo e molta pazienza!</p>            </div>
+                <p><b style="color:#007575;">Direzione del cantiere</b> con il coordinamento delle maestranze interessate. Questa fase è sempre piuttosto impegnativa per il Cliente da seguire direttamente perché mettere d’accordo tutti relativamente ai tempi e ai modi non è cosa facile e richiede tempo e molta pazienza!</p>
+            </div>
+        </div>
+    </div> <!-- / .container -->
+</div>
+
+
+<section id="office-design" name="office-design"></section>
+<div id="desc-office-design">
+    <div class="container">
+        <div class="row centered">
+            <div class="col-lg-12">
+                <img src="{{ asset('/img/interno12/office-design/companies_01.jpg') }}" alt="office design" class="img-responsive">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-12">
+                <h3 class="centered">Gli Ambiti di Intervento</h3>
+                <p><b style="color:#007575;">Office Interior Design</b> – Sappiamo che un ambiente di lavoro confortevole e funzionale permette di essere anche più efficienti e motivati!
+                    <br>
+                    Che si tratti di un uno spazio condiviso o meno, in un contesto pubblico o privato (HomeOffice) l’obiettivo rimane lo stesso: lavorare bene per lavorare meglio!
+                    <br>
+                    Vi darò utili consigli per gestire e <b>personalizzare</b> in modo versatile, funzionale ed esteticamente confortevole il vostro spazio di lavoro.</p>
+                <br>
+                <br>
+                <p><b style="color:#007575;">Office&Social Interior Restyling</b> – A volte bastano poche mosse per <b>cambiare il look dell'ufficio</b> e in generale dei luoghi dedicati allo svolgimento delle attività professionali.
+                    <br>
+                    Anche i locali destinati alla socializzazione, dove ci si incontra per un caffè più o meno informale e che sempre di più sono anche <b>locali di incontri e scambi professionali</b>, hanno bisogno di rinfrescare periodicamente la propria immagine per continuare ad essere attrattivi ed accoglienti.
+                    <br>
+                    In questi casi non è necessario stravolgere il layout ma solo migliorare l'impatto estetico valorizzando certi angoli o mimetizzando delle zone o prospettive che abbiamo capito essere penalizzanti.
+                    <br>
+                    La consulenza di Interior Restyling ha l'obiettivo di <b>restituire ad un ambiente un'immagine attuale</b> che, rispecchiando i canoni estetici in vigore indipendentemente dallo stile, trasmetta alle persone che ci vivono una sensazione di benessere.
+                    Ciò avviene attraverso pochi e mirati interventi relativi a illuminazione, colori, rivestimenti e, quando serve, anche agli arredi attraverso il loro recupero intelligente (SmartRestyling).</p>
+                <br>
+                <br>
+                <p><b style="color:#007575;">Visual Merchandising</b> – Grazie all'applicazione intelligente e creativa delle regole del Visual Merchandising mi occuperò di supportarvi nella <b>pianificazione strategica della disposizione degli articoli</b> che si vogliono esporre per <b>favorirne la vendita</b>.
+                    <br>
+                    Vi consiglierò strategie e "trucchi del mestiere" che permettono la <b>valorizzazione di un prodotto</b> sia in relazione alle sue caratteristiche che a quelle del contesto in cui è inserito. Tutto ciò avverrà anche sempre in modo coerente con le linee guida suggerite dai brand relativi. Verranno elaborati e discussi progetti globali, dal Concept agli esecutivi.</p>
+                <br>
+                <br>
+                <p><b style="color:#007575;">Product Styling Design</b> – Grazie al costante aggiornamento sui trend del mercato e alla particolare sensibilità e cura del dettaglio la mia attività costituisce un ottimo supporto alla definizione di nuove linee di prodotto nonché al restyling di collezioni o articoli di design in essere.
+                    La passione per l'approfondimento tecnico consente di verificare l'industrializzazione del prodotto o la fattibilità artigianale dello stesso.</p>
+                <br>
+                <br>
+                <h3 class="centered">Il Metodo</h3>
+                <p>Il percorso, condiviso con i Clienti, prevede le seguenti fasi:</p>
+                <ul>
+                    <li><b style="color:#007575;">Incontro personale conoscitivo</b> (gratuito e senza impegno) nel corso del quale i Clienti mi spiegano le loro esigenze e ciò che si aspettano dal mio intervento ed io illustro loro il mio metodo di lavoro.</li>
+                    <li><b style="color:#007575;">Raccolta della documentazione</b> (piante,sezioni e fotografie dell’oggetto dell’intervento) necessaria all’elaborazione di un piano di progetto e del relativo preventivo.</li>
+                    <li>Presentazione e discussione del planning e del <b style="color:#007575;">preventivo</b>.</li>
+                    <li><b style="color:#007575;">Rilievo</b> dello stato di fatto.</li>
+                    <li>Presentazione e discussione del <b style="color:#007575;">progetto di massima</b> (almeno due varianti) supportato da render fotorealistici.</li>
+                    <li>Aggiornamento del progetto di massima ed elaborazione del <b style="color:#007575;">progetto definitivo</b> supportato da render fotorealistici.</li>
+                </ul>
+                <br>
+                <br>
+                <h3 class="centered">Servizi Supplementari</h3>
+                <p><b style="color:#007575;">Elaborazione dei preventivi relativi agli arredi</b> e alle varie opere previste dal progetto. Questo supporto è molto utile quando si desidera evitare il lungo e delicato lavoro di ricerca e selezione delle maestranze e la relativa gestione.</p>
+                <p><b style="color:#007575;">Direzione del cantiere</b> con il coordinamento delle maestranze interessate. Questa fase è sempre piuttosto impegnativa per il Cliente da seguire direttamente perché mettere d’accordo tutti relativamente ai tempi e ai modi non è cosa facile e richiede tempo e molta pazienza!</p>
+            </div>
         </div>
     </div> <!-- / .container -->
 </div>
