@@ -23,6 +23,8 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
     <meta name="twitter:site" content="@acachawiki" />
     <meta name="twitter:creator" content="@acacha1" />
 
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
     <title>interno 12 Home Page</title>
 
     <!-- Bootstrap core CSS -->
@@ -120,6 +122,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                     <textarea class="form-control" name="Message" rows="3"></textarea>
                 </div>
                 <br>
+                {{ csrf_field() }}
                 <button type="submit" class="btn btn-large btn-success">{{ trans('adminlte_lang::message.submit') }}</button>
             </form>
         </div>
@@ -141,6 +144,13 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="{{ asset('/js/bootstrap.min.js') }}" type="text/javascript"></script>
+<script>
+    $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        }
+    });
+</script>
 </body>
 </html>
 
