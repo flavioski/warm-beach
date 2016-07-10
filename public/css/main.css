@@ -107,7 +107,15 @@ a:after {
 }
 
 #desc-home-design {
+    display: block;
     padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#desc-office-design {
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 /* Jewels Wrap */
