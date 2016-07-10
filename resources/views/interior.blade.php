@@ -105,7 +105,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
     <div class="container">
         <div class="row centered">
             <div class="col-lg-12">
-                <img src="{{ asset('/img/interno12/home-design/privates_01.jpg') }}" alt="home design" class="img-responsive">
+                <img src="{{ asset('/img/interno12/home-design/privates_01.jpg') }}" alt="home design" class="centered img-responsive">
             </div>
         </div>
         <div class="row">
@@ -163,6 +163,8 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                 <p><b style="color:#007575;">Direzione del cantiere</b> con il coordinamento delle maestranze interessate. Questa fase è sempre piuttosto impegnativa per il Cliente da seguire direttamente perché mettere d’accordo tutti relativamente ai tempi e ai modi non è cosa facile e richiede tempo e molta pazienza!</p>
             </div>
         </div>
+        <br>
+        <hr>
     </div> <!-- / .container -->
 </div>
 
@@ -171,8 +173,8 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 <div id="desc-office-design">
     <div class="container">
         <div class="row centered">
-            <div class="col-lg-12">
-                <img src="{{ asset('/img/interno12/office-design/companies_01.jpg') }}" alt="office design" class="img-responsive">
+            <div class="col-lg-12 ">
+                <img src="{{ asset('/img/interno12/office-design/companies_01.jpg') }}" alt="office design" class="centered img-responsive">
             </div>
         </div>
         <br>
@@ -222,6 +224,8 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                 <p><b style="color:#007575;">Direzione del cantiere</b> con il coordinamento delle maestranze interessate. Questa fase è sempre piuttosto impegnativa per il Cliente da seguire direttamente perché mettere d’accordo tutti relativamente ai tempi e ai modi non è cosa facile e richiede tempo e molta pazienza!</p>
             </div>
         </div>
+        <br>
+        <hr>
     </div> <!-- / .container -->
 </div>
 
