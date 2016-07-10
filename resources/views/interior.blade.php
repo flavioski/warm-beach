@@ -163,8 +163,6 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                 <p><b style="color:#007575;">Direzione del cantiere</b> con il coordinamento delle maestranze interessate. Questa fase è sempre piuttosto impegnativa per il Cliente da seguire direttamente perché mettere d’accordo tutti relativamente ai tempi e ai modi non è cosa facile e richiede tempo e molta pazienza!</p>
             </div>
         </div>
-        <br>
-        <hr>
     </div> <!-- / .container -->
 </div>
 
