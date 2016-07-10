@@ -132,6 +132,7 @@ a:after {
     display: block;
     padding-top: 50px;
     padding-bottom: 50px;
+    border-top: #bdc3c7 solid 5px;
 }
 
 /* Me Wrap */
